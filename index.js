@@ -9,7 +9,7 @@ app.use(express.static("./public"))
 app.use(express.urlencoded({ extended: false}))
 app.use(express.json());
 
-app.use('/', router);
+app.use('/url', router);
 
 
 app.listen(PORT, (err) => {
