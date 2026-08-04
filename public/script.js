@@ -4,7 +4,7 @@ button.addEventListener("click", async () => {
 
     const originalurl = document.getElementById("urlInput").value;
 
-    const response = await fetch("/url", {
+    const response = await fetch("/", {
         method: "POST",
         headers: {
             "Content-Type": "application/json"
